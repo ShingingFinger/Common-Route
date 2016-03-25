@@ -4,56 +4,193 @@
 # eg. image eileen happy = "eileen_happy.png"
 
 # Declare characters used by this game.
-define e = Character('Ethan', color="#c8ffc8")
-define m = Character('Mason', color="#c8ffc8")
-
+define h = Character('Hugh', color="#c8ffc8")
+define c = Character('Radcliff', color="#c8ffc8") #cliff
+define r = Character('Ruby', color="#c8ffc8")
+define w = Character('Weiss', color="#c8ffc8")
+define b = Character('Blake', color="#c8ffc8")
+define y = Character('Yang', color="#c8ffc8")
 
 # The game starts here.
-label start:
+label rubyrose:
 #A bit of introspection, introduction to the MC
 #A bit of talking with Bro
 #Glimpses at others
 #Seems too early, impressions at most
 
-    "Ethan introduces himself on the airship, likely looking out the window and considering his past."
+    "Hugh introduces himself on the airship, likely looking out the window and considering his past."
    
-    e "I reflect about the Grimm attack that was barely averted but would have caused dozens if not hundreds of deaths to be my fault if it had taken place."
+    c "I reflect about the Grimm attack that was barely averted but would have caused dozens if not hundreds of deaths to be my fault if it had taken place."
    
     "A CG will likely be place here, as well as greater expansion on the RWBY universe."
     "However, very soon, he is interrupted by a slap on the back by a more cheerful figure."
    
-    m "I'm Mason. I comment on Ethan's soberness and act as his foil, telling him to cheer up and celebrate his acceptance into Beacon."
+    c "I'm Radcliff. I comment on Hugh's soberness and act as his foil, telling him to cheer up and celebrate his acceptance into Beacon."
     
-    e "I make a coy comment about how Mason isn't 'actually' qualified to be a Hunter, but end up smiling due to his positivity."
+    h "I make a coy comment about how Radcliff isn't 'actually' qualified to be a Hunter, but end up smiling due to his positivity."
 
-    m "I retort with a similar harmless insult."
+    c "I retort with a similar harmless insult."
     
-    e "As we continue speaking, I touch lightly on how I got to know Mason, our first meeting in particular."
-    e "The memory is heartwarming but not discussed in-depth."
+    h "As we continue speaking, I touch lightly on how I got to know Radcliff, our first meeting in particular."
+    h "The memory is heartwarming but not discussed in-depth."
     
-    "Mason and Ethan look around at the other future hunters present."
+    "Radcliff and Hugh look around at the other future hunters present."
     
-    m "I take a good long look at Yang, who I point out to Ethan and refer to as 'hotpants chick'."
+    c "I take a good long look at Yang, who I point out to Hugh and refer to as 'hotpants chick'."
     
-    e "I point out that Mason's behavior will likely be rebuffed if noticed."
+    h "I point out that Radcliff's behavior will likely be rebuffed if noticed."
     
-    m "I grumble that Ethan has no sex drive and will never get a girlfriend in a fashion ironic given the nature of the game."
+    c "I grumble that Hugh has no sex drive and will never get a girlfriend in a fashion ironic given the nature of the game."
     
-    e "I admit that it is true I've never had a girlfriend, but this is because of my reserved nature rather than personal capability to do so."
-    e "Also, Mason is a jackass for breaking the fourth wall."
+    h "I admit that it is true I've never had a girlfriend, but this is because of my reserved nature rather than personal capability to do so."
+    h "Also, Radcliff is a jackass for breaking the fourth wall."
     
     "Faunus civil rights protest TV broadcast here. The situation presented makes both young men very uncomfortable and stop talking."
     "Soon, however, it is interrupted by Gynda Goodwitch's announcement."
     
-    m "After the announcement ends, I imitate Glynda's serious tone in a mocking fashion. Insert Spider-Man reference here."
+    c "After the announcement ends, I imitate Glynda's serious tone in a mocking fashion. Insert Spider-Man reference here."
    
-    e "I make a cynical but joking comment about the nature of Beacon, before informing Mason of the incredible view."
+    h "I make a cynical but joking comment about the nature of Beacon, before informing Radcliff of the incredible view."
     
     "A CG sky view of Beacon appears, staying on the screen for the next few comments."
     
-    m "I wonder out loud about how the school will actually be, and confess to Ethan that I'm personally nervous."
-    m "This helps display my honest but blunt nature."
+    c "I wonder out loud about how the school will actually be, and confess to Hugh that I'm personally nervous."
+    c "This helps display my honest but blunt nature."
     
-    e "I nod, but don't respond verbally, internalizing my fears and signalling that confronting my hesitant nature is part of my future character development."
+    h "I nod, but don't respond verbally, internalizing my fears and signalling that confronting my hesitant nature is part of my future character development."
+    
+    "A brief interaction between the timid Nixie and strict Edna catches the boys' attentions."
+    "After Nixie apologizes, she fixes her hair and smiles when she sees Radcliff."
+    
+    c "Being as dense as the stone I'm named after, I assume she's acting based on Hugh's attention rather than mine."
+    
+    h "I have my suspicions that Radcliff is wrong, but keep them to myself."
+    
+    "The scene ends with the airship reaching its destination and both boys passing by Jaune as he upheaves whatever personal dignity he has left into the trash can outside the airship."
+    
+    jump shiningbeacon
 
+label shiningbeacon:
+    
+    "The two boys view Beacon in earnest while trying to ignore Ruby's sperging out about weapons."
+    "However, they are soon knocked out of their wonder by the explosion produced by Ruby."
+    
+    h "Surprise and alarm!"
+    
+    c "Excuse to engage weapon!"
+
+    "Radcliff displays his signature maul, a huge, simplistic weapon designed to deal tons of damage and reave through Grimm."
+    
+    r "Excuse to fangirl about the axe!"
+    
+    c "Confused request that she leave me and my weapon alone!"
+    
+    r "Pressing questions about the make, design, and name of the maul, expressed with a lack of regard for personal space or self-restraint!"
+    
+    b "Display of knowledge about the SDC..."
+    
+    w "Expression of gratefulness for recognition!"
+    
+    b "...Followed by comment about it being a Snidley-Whiplash-level evil corporation."
+    
+    w "Indignation, followed by demand that Hugh state an opinion on the matter!"
+    
+    h "Flat reaction of stunned disbelief."
+    
+    r "Continued harassment of Radcliff~!"
+    
+    c "Accusation of actions amounting to molestation!"
+    
+    $ best_girl = "Penny"
+    $ weiss_points = 0
+    $ blake_points = 0
+    $ ruby_points = 0
+    $ yang_points = 0
+    
+    menu:
+        "Pick best girl. Choose wisely."
+        
+        "Blake.":
+            best_girl = "Blake"
+            blake_points += 1
+            weiss_points -=1
+            jump sb_Blake
+            
+        "Weiss.":
+            best_girl = "Weiss"
+            weiss_points += 1
+            blake_points -= 1
+            jump sb_Weiss
+        
+        "For the love of Dust, help Radcliff before he gets legitimately raped by a fourteen-year-old girl.":
+            best_girl = "Radcliff"
+            jump sb_It_snotrapeifwe_rebothscreaming
+        
+        "Pussy out of a decision like the bitch you are. Bitch.":
+            best_girl = "Right Hand"
+            jump sb_Bitch
+            
+label sb_Blake:
+    
+    b "Positive response, including a soft smile."
+    
+    w "Ballistic reaction and a pointer finger in the face before walking off in a huff claiming you both as humanoid garbage."
+    
+    h "Dismayed reaction at such harsh treatment."
+    
+    b "Calm, happy re-assurance of your choice."
+    
+    c "Support of Hugh's choice while prying Ruby off of my weapon."
+    
+    r "Claim that I will always love your maul!"
+    
+    b "Suggestion that you walk together."
+    
+    c "Expression of thanks to Blake before apology, accidentally cockblocking Hugh while fleeing from Ruby."
+    
+    h "Attempted protest before being rushed off by Radcliff."
+    
+    jump shiningbeaconpt_2
+
+label sb_Weiss:
+
+    w "Positive response, including a smug look at Blake."
+    
+    b "Cold glare, followed by walking off without speaking."
+    
+    h "Dismayed reaction at such harsh treatment."
+    
+    b "Happy re-assurance of your choice and notation of Hugh's intelligence."
+    
+    c "Support of Hugh's choice while prying Ruby off of my weapon."
+    
+    r "Claim that I will always love your maul!"
+    
+    w "Suggestion that you speak at a later time about studying and/or networking."
+    
+    c "Expression of thanks to Weiss before apology, accidentally cockblocking Hugh while fleeing from Ruby."
+    
+    h "Attempted protest before being rushed off by Radcliff."
+
+    jump shiningbeaconpt_2
+
+label sb_It_snotrapeifwe_rebothscreaming:
+    
+    c "Expressed thanks as you remove Radcliff from direct contact with the Rube."
+    
+    r "Claim that you're repressing weaponsexuals!"
+    
+    "The two of you flee from Ruby."
+    
+    jump shiningbeaconpt_2
+
+label sb_Bitch:
+    
+    "You die alone and unloved, due to picking the one definitely bad choice."
+    return
+    
+label shiningbeaconpt_2:
+    
+     "Currently unfinished."
+    
     return
