@@ -1,0 +1,59 @@
+# You can place the script of your game in this file.
+
+# Declare images below this line, using the image statement.
+# eg. image eileen happy = "eileen_happy.png"
+
+# Declare characters used by this game.
+define e = Character('Ethan', color="#c8ffc8")
+define m = Character('Mason', color="#c8ffc8")
+
+
+# The game starts here.
+label start:
+#A bit of introspection, introduction to the MC
+#A bit of talking with Bro
+#Glimpses at others
+#Seems too early, impressions at most
+
+    "Ethan introduces himself on the airship, likely looking out the window and considering his past."
+   
+    e "I reflect about the Grimm attack that was barely averted but would have caused dozens if not hundreds of deaths to be my fault if it had taken place."
+   
+    "A CG will likely be place here, as well as greater expansion on the RWBY universe."
+    "However, very soon, he is interrupted by a slap on the back by a more cheerful figure."
+   
+    m "I'm Mason. I comment on Ethan's soberness and act as his foil, telling him to cheer up and celebrate his acceptance into Beacon."
+    
+    e "I make a coy comment about how Mason isn't 'actually' qualified to be a Hunter, but end up smiling due to his positivity."
+
+    m "I retort with a similar harmless insult."
+    
+    e "As we continue speaking, I touch lightly on how I got to know Mason, our first meeting in particular."
+    e "The memory is heartwarming but not discussed in-depth."
+    
+    "Mason and Ethan look around at the other future hunters present."
+    
+    m "I take a good long look at Yang, who I point out to Ethan and refer to as 'hotpants chick'."
+    
+    e "I point out that Mason is being a creep."
+    
+    m "I grumble that Ethan has no sex drive and will never get a girlfriend in a fashion ironic given the nature of the game."
+    
+    e "I admit that it is true I've never had a girlfriend, but this is because of my reserved nature rather than personal capability to do so."
+    e "Also, Mason is a jackass for breaking the fourth wall."
+    
+    "Faunus civil rights protest TV broadcast here. The situation presented makes both young men very uncomfortable and stop talking."
+    "Soon, however, it is interrupted by Gynda Goodwitch's announcement."
+    
+    m "After the announcement ends, I imitate Glynda's serious tone in a mocking fashion. Insert Spider-Man reference here."
+   
+    e "I make a cynical but joking comment about the nature of Beacon, before informing Mason of the incredible view."
+    
+    "A CG sky view of Beacon appears, staying on the screen for the next few comments."
+    
+    m "I wonder out loud about how the school will actually be, and confess to Ethan that I'm personally nervous."
+    m "This helps display my honest but blunt nature."
+    
+    e "I nod, but don't respond verbally, internalizing my fears and signalling that confronting my hesitant nature is part of my future character development."
+
+    return
