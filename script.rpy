@@ -4,214 +4,82 @@
 # eg. image eileen happy = "eileen_happy.png"
 
 # Declare characters used by this game.
-init:
-    $ mcname1 = "MC"
-    $ mcname2 = " "
-    $ mcnamefull = " "
-    $ m = DynamicCharacter("mcname1", color="#1B0087")
-    $ best_girl = DynamicCharacter("Best Girl", color="#03F700")
-
-define b = Character('BroC', color="#7F0020")
+define h = Character('Hugh', color="#c8ffc8")
+define c = Character('Radcliff', color="#c8ffc8") #cliff
+define r = Character('Ruby', color="#c8ffc8")
+define w = Character('Weiss', color="#c8ffc8")
+define b = Character('Blake', color="#c8ffc8")
+define y = Character('Yang', color="#c8ffc8")
 
 # The game starts here.
-label start:
-    #scene bg conflict
-    #with dissolve
-    #play music "noquarterbattle.mp3"
+label rubyrose:
+#A bit of introspection, introduction to the MC
+#A bit of talking with Bro
+#Glimpses at others
+#Seems too early, impressions at most
 
-    #window show
-
-    "Figured it would turn out this way."
-    #show BroC scared
-    b "Bro, you okay?"
-    "Wasn't one for taking hits, that was Bro's job."
-    "Did it anyways."
-    extend"\nYou only live once, right?"
-    b "Dammit, man, speak to me!"
-    b "Say something, anything!"
-    m "Thanks..."
-    #show BroC angry
-    b "No!"
-    extend "\nNot yet, no!"
-    m "Take care of her- if I can't..."
-    #show BroC furious
-    b "Shut the hell up!"
-    extend "\nYou're talking like you're gonna die, and I WON'T let that happen!"
-    #hide BroC
-    "He picks me up like I'm a rag doll."
-    "Too much blood."
-    extend "\nCan't open my eyes, barely consious."
-    #show BroC determined
-    b "Ranger!\nTake care of that creep- hold him off until I get back!"
-    #hide BroC
-    "Can't hear the response. \nToo much static in my head."
-    "After a few seconds, I pass out."
+    "Hugh introduces himself on the airship, likely looking out the window and considering his past."
+   
+    c "I reflect about the Grimm attack that was barely averted but would have caused dozens if not hundreds of deaths to be my fault if it had taken place."
+   
+    "A CG will likely be place here, as well as greater expansion on the RWBY universe."
+    "However, very soon, he is interrupted by a slap on the back by a more cheerful figure."
+   
+    c "I'm Radcliff. I comment on Hugh's soberness and act as his foil, telling him to cheer up and celebrate his acceptance into Beacon."
     
-    #show bg darkness
-    #with dissolve
-    #play music "contemplation.mp3"
-    "Something out of a book, right?"
-    "Taking a blow meant for a true love."
-    "But we're Hunters."
-    extend "\nTrue love only comes in tragedy flavor around here."
-    #stop music fadeout 1.0
+    h "I make a coy comment about how Radcliff isn't 'actually' qualified to be a Hunter, but end up smiling due to his positivity."
+
+    c "I retort with a similar harmless insult."
     
-    #$ renpy.movie_cutscene("INTRO_MOVIE.mpg")
+    h "As we continue speaking, I touch lightly on how I got to know Radcliff, our first meeting in particular."
+    h "The memory is heartwarming but not discussed in-depth."
     
-    #show bg beacon_view
-    #with dissolve
-    #play music "contemplation.mp3"
-    "This story begins at Beacon."
-    extend "\nAcademy for Hunters and Huntresses, like me."
-    #show BroC cheerful
-    "And my friends, like Brock."
-    "He's stuck with me through thick and thin."
-    "Even though I'm technically a better student and arguably a better fighter, I don't know where I'd be without him."
-    #hide BroC
-    jump hospital
- 
-label hospital:
-    #show bg hospital_room
-    #with dissolve
-    "But we're not at Beacon, not now."
-    "Right now, I'm in a hospital."
-    "Flat on my back, a drip in my arm, trying not to croak before my girlfriend shows up."
-    "Some way to spend a day, huh?"
-    #stop music fadeout 1.0
-    "Someone enters, and my heart jumps."
-    #show BroC determined
-    b "Bro."
-    "He's not happy."
-    m "..."
-    b "Don't give me the silent treatment, Bro."
-    b "This is more than a bad scrape. \nTell me what's up."
-    "It is, but I'm not about to tell him that."
-    m "I'm fine."
-    "He sees through it immediately."
-    b "Bullshit."
-    extend "\nThat's bullshit, and you know it."
-    #show BroC angry
-    b "Bro."
-    b "I need you to be honest with me."
-    #show BroC sad
-    b "What's up with you?"
-    extend "\nThis isn't like you."
-    menu:
-        "I'm just tired, Bro. Honestly.":
-            $ mood1 = "exhausted" #For later flags
-            m "I can barely lift my arm."
-            jump exhausted
-        "Some 'hero' I am, right?":
-            $ mood1 = "noplaceforahero"
-            m "Can't even protect one girl without getting half-killed."
-            jump sulk
-        "Bro... I know you want to help, but...":
-            $ mood1 = "personalproblems"
-            m "This is something I have to do myself."
-            jump resolve
+    "Radcliff and Hugh look around at the other future hunters present."
+    
+    c "I take a good long look at Yang, who I point out to Hugh and refer to as 'hotpants chick'."
+    
+    h "I point out that Radcliff's behavior will likely be rebuffed if noticed."
+    
+    c "I grumble that Hugh has no sex drive and will never get a girlfriend in a fashion ironic given the nature of the game."
+    
+    h "I admit that it is true I've never had a girlfriend, but this is because of my reserved nature rather than personal capability to do so."
+    h "Also, Radcliff is a jackass for breaking the fourth wall."
+    
+    "Faunus civil rights protest TV broadcast here. The situation presented makes both young men very uncomfortable and stop talking."
+    "Soon, however, it is interrupted by Gynda Goodwitch's announcement."
+    
+    c "After the announcement ends, I imitate Glynda's serious tone in a mocking fashion. Insert Spider-Man reference here."
+   
+    h "I make a cynical but joking comment about the nature of Beacon, before informing Radcliff of the incredible view."
+    
+    "A CG sky view of Beacon appears, staying on the screen for the next few comments."
+    
+    c "I wonder out loud about how the school will actually be, and confess to Hugh that I'm personally nervous."
+    c "This helps display my honest but blunt nature."
+    
+    h "I nod, but don't respond verbally, internalizing my fears and signalling that confronting my hesitant nature is part of my future character development."
+    
+    "A brief interaction between the timid Nixie and strict Edna catches the boys' attentions."
+    "After Nixie apologizes, she fixes her hair and smiles when she sees Radcliff."
+    
+    c "Being as dense as the stone I'm named after, I assume she's acting based on Hugh's attention rather than mine."
+    
+    h "I have my suspicions that Radcliff is wrong, but keep them to myself."
+    
+    "The scene ends with the airship reaching its destination and both boys passing by Jaune as he upheaves whatever personal dignity he has left into the trash can outside the airship."
+    
+    jump shiningbeacon
 
-label exhausted:
-    "My arm is killing me."
-    "A good tenth of my blood likely hasn't been replaced yet."
-    "I just can't talk to him right now."
-    m "I want to talk to you, but I really can't."
-    extend "\nI'm just too tired."
-    "He looks at me, sadly."
-    "Looking over me, he realizes just how grevious my wounds really are."
-    m "Please, I want to get out there as much as you do- I just can't."
-    "Soon, Bro gives me a nod of understanding."
-    b "Okay, bro, I just want you to be honest with yourself."
-    b "You know what happened to me when I wasn't."
-    #show BroC happy
-    b "You taught me one thing, at least."
-    "I snicker."
-    m "More than you think."
-    #show BroC teasing
-    b "Hey, I learned the alphabet all on my own, and I can count good."
-    "Smiling feels good."
-    "I would be laughing if I didn't think it would cave in my chest."
-     #hide BroC
-    jump guest
+label shiningbeacon:
+    
+    "The two boys view Beacon in earnest while trying to ignore Ruby's sperging out about weapons."
+    "However, they are soon knocked out of their wonder by the explosion produced by Ruby."
+    
+    h "Surprise and alarm!"
+    
+    c "Excuse to engage weapon!"
 
-label sulk:
-    "Fat lot of good I am as a meat shield."
-    "Couldn't even take one good hit."
-    m "At least she got out alright."
-    #show BroC furious
-    "Before I can say anything, Bro gives me a death glare like nothing I've seen before."
-    b "W-What?"
-    b "Bro, you put yourself on the line to save her LIFE. That's not something people just DO."
-    "I shake my head in confusion."
-    m "She's my girlfriend, of course it is."
-    "His fists clench."
-    b "God, you cannot be serious right now."
-    #show BroC determined
-    b "There's no way you're our leader- that you do the things you do, and you're not a hero."
-    m "I'm just doing what I'm supposed to."
-    b "Yeah, well, guess what?"
-    extend "\nThat's what heroes do."
-    b "The fact that it's not a big deal just proves my point."
-    #show BroC teasing
-    b "You know what, forget it."
-    b "I'm going to beat some sense into you the second you get out."
-     #hide BroC
-    jump guest
+    "Radcliff displays his signature maul, a huge, simplistic weapon designed to deal tons of damage and reave through Grimm."
+    
 
-label resolve:
-    "I try to shake the weariness off."
-    "There are some things a man's just gotta do."
-    m "You know the feeling better than I do- this is my fight, in a way."
-    #show BroC teasing
-    "Bro rolls his eyes."
-    b "Come on, man, we're a team."
-    b "You know what happened when I tried to go full macho."
-    "I sigh a bit and lie back."
-    m "Yeah, well, you can't knit my bones any faster than they are already."
-    "He puts his fist into the other palm."
-    b "Wanna bet?"
-    #show BroC determined
-    b "For real though, you can't try to take everything on by yourself."
-    m "I know, but it was my decision to get ragdolled, and now I have to deal with it."
-    #show BroC teasing
-    "That sours him just a bit."
-    b "You weren't the one who dragged your limp ass back to safety, you know."
-    m "Sorry, but at least I don't need to lose weight."
-    b "I'm plenty in shape, I'll have you know."
-    b "I'd prove it by flattening you if you weren't already, you know..."
-    #hide BroC
-    jump guest
-
-label guest:
-    #show bg best_girl_entrance
-    #with dissolve
-    "Of course, I wasn't expecting my next guest, even if I was happy to see her."
-    $ best_girl = "Penny"
-    #show Penny happy at right
-    best_girl "Salutations!"
-    #show BroC confused at left
-    b "Huh?"
-    best_girl "It means, 'Greetings!'"
-    #show Penny disappointed at right
-    extend "\nHonestly, even I know that much, and I was manufactured."
-    b "No, I mean..."
-    best_girl "...Yes?"
-    b "Aren't you, you know, dead?"
-    #show Penny thinking at right
-    best_girl "That's a matter of interpretation."
-    b "I'm sure."
-    #show Penny determined at right
-    best_girl "Anyways, I'm just here to test to see if the MC can be renamed."
-    b "Who can what now?"
-    #show Penny angry at left
-    best_girl "Comic relief should stay silent during serious scenes."
-    #show BroC angry at left
-    b "Hey! I'm practically a deuterotagonist at this point!"
-    #show Penny happy at right
-    best_girl "Now, input your name, if you would?"
-    $ mcname1 = renpy.input("What is your first name?")
-    $ mcname2 = renpy.input("What is your last name?")
-    $ mcnamefull = mcname1+" "+mcname2
-    m "My name is %(mcname1)s. %(mcname1)s %(mcname2)s."
-    best_girl "Excellent! this ends this segment!"
-    b "Now wait just a minute-"
     return
