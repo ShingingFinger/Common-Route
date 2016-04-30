@@ -10,6 +10,7 @@ define r = Character('Ruby', color="#c8ffc8")
 define w = Character('Weiss', color="#c8ffc8")
 define b = Character('Blake', color="#c8ffc8")
 define y = Character('Yang', color="#c8ffc8")
+define sue = Character('Master', color="#c8ffc8")
 define mnews = Character('Male Broadcaster', color="#c8ffc8")
 define lisa = Character('Lisa Lavender', color="#c8ffc8")
 define unk = Character('???', color="#c8ffc8")
@@ -57,7 +58,9 @@ label rubyrose:
     "To be honest, I didn't believe anyone could have survived until Master came back- and promptly dragged me back home."
     "I didn't get out of my room for a month, but whe I did, sure enough, I was approached with the offer to become a Hunter."
     "The rest, as they say-"
-    $ renpy.play('punch.wav')
+    
+	#Replaced prior speech with expanded dialogue here
+	$ renpy.play('punch.wav')
             with hpunch
     h "-OW!"
     "My back suddenly begins to sting, as a cheerful figure slides up next to me with a smirk."
@@ -83,7 +86,59 @@ label rubyrose:
     "That and he claims to be good at flirting while putting his foot so deep in his mouth it takes two people to pull it out."
     "We really became friends after that time we defended the camp from a Grimm horde for nearly an hour while Master was gone."
     "Of course, given that Grimm dissolve on destruction, we couldn't ACTUALLY prove jack, but he knows, and I know."
-
+	#
+	h "You said you had to do something when we got on board the airship."
+	"Cliff seems confused, a regular sight for me."
+	"Then a flash of hesitation crosses his face, before returning to his neutral state of boredom."
+	c "Oh, right. That."
+	"He doesn't tell me what it is, going back to staring out the window."
+	"I wait for a few seconds, but he just sits there, as if he had answered my question."
+	h "And?"
+	"He turns back for a second, and shrugs."
+	c "And what?"
+	"I furow my brow. What's so important that he couldn't tell me?"
+	h "Yeah, that's what I mean- 'and what' was it?"
+	"He waves his hand, dismissing my concern."
+	c "-It's just something going on with Master. Not really important."
+	"Tracing his finger on the table, he sighs a bit in frustration."
+	c "She wanted me to give her an update on our 'status'. You know how it is with her."
+	"I cringe somewhat at that."
+	"Our Master, while an effective Huntress, has a bit of a..."
+	"'Complex' would be the best word for it."
+	"I'm going to cite the fact that I've never seen her eat any sort of packaged food and leave it at that."
+	h "That reminds me, do you think other people here have callsigns?"
+	"He grins."
+	c "You mean besides their names, 'Snowflake'?"
+	"One word brings me to a hair's breadth from slugging him, and I look around to make sure nobody heard him."
+	"I don't know why she gave me that nickname, but Radcliff has never, ever forgotten it."
+	"Figures he would remember that and not, say, the recipie for the pancakes he always botches."
+	h "Eat a dozen Dust crystals, 'Donut'."
+	"He laughs uproarously- never been one to take offense to good-natured jokes."
+	"We're pretty much brothers, even though we're obviously not related."
+	"Both of us trained under Master- who goes by 'Sue'."
+	sue "Your name ain't Sue, so suck it up!"
+	"I almost mouth out the words myself."
+	##Incomplete and might not be appropriate.
+	"Cliff was her student before me, after his family from Vacuo met Master and set him off with her."
+	"He doesn't talk much about his family, but he apparently has, three sisters and an older brother."
+	"One of them's pretty sweet on me, but the numerous and savage rules of Master indicate that such an arrangement would be severed."
+	"Probably literally, given what happened last time."
+	"I'm from Mistral, myself, and..."
+	"..."
+	"...and once I got to know Cliff, we got along like a house on fire.
+	##
+	"Something else passes over my mind."
+	h "That reminds me- how's Aqua doing?"
+	"He pales, and places his arm over his lap instinctively."
+	"Radcliff's sister 'seemed' to have the hots for me, so of course he set me up on a blind date with her last year."
+	c "Fantastic. Never been better."
+	"He did not tell Master or his parents about this."
+	h "Still not talking to you?"
+	c "Still not talking to me."
+	"And that's why one of the things I like best about Vale is that I'm not blacklisted from restraunts here."
+	c "You know I'll make it up to you eventually, dude."
+	h "Please don't. I insist."
+	
     "We end up taking a glance around the room, and someone catches Radcliff's eye."
     c "Dude, check out hotpants over there. I mean, DAMN."
     "He whistles softly, pointing out a blonde wearing what indeed appear to be hotpants."
