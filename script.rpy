@@ -209,17 +209,44 @@ label rubyrose:
     h "You're hopeless."
     c "Says the guy that just dropped the opportunity to chat up a girl because he's not feeling it?"
     c "You need to get out of your comfort zone, for reals."
-    
-    "A brief interaction between the timid Nixie and strict Edna catches the boys' attentions."
-    "After Nixie apologizes, she fixes her hair and smiles when she sees Radcliff."
-    
-    c "Being as dense as the stone I'm named after, I assume she's acting based on Hugh's attention rather than mine."
-    
-    h "I have my suspicions that Radcliff is wrong, but keep them to myself."
-    
-    "The scene ends with the airship reaching its destination and both boys passing by Jaune as he upheaves whatever personal dignity he has left into the trash can outside the airship."
-    
-    jump shiningbeacon
+	
+	"The halt of the airship's motion and movement of the other students informs us we've come to a stop- and our destination."
+	c "And that's our stop. After you, bud."
+	"Walking off the airship, we pass by the blonde guy from earlier, who's still tossing his lunch into a trash can, and step far enough away so that we can enjoy the view."
+	"And what a view it is."
+	"The shape of the towers bring to mind the shape of a hooded lantern, something between a wizard's stronghold and a fortified castle."
+    h "No wonder it's called Beacon."
+	c "Spared no expense, I take it."
+	h "I hope not."
+	"There's that girl from earlier on the airship."
+	"She seems to be eagerly chattering with hotpants chick about something, dancing around like some sort of cartoon character all the time."
+	"It's somehow charming and annoying at the same time."
+	"However, we pass by her without being harrassed, and hotpants disappears with another crowd."
+	"That is, until we hear a small explosion go off behind us."
+	"The trademark sound of Dust going critical engages Cliff immediately."
+	"He draws a foldout maul, which he holds with two hands and braces defensively."
+	c "Hey, I don't want any-"
+	"A second after the explosion, A red and black blur immediately attatches itself to him."
+	r "Ohmigosh! Is that a maul? It has a gun form, right? What does it transform into?"
+	"For someone dressed gothically, she seems pretty energetic."
+	c "What the- Get off!"
+	"Radcliff takes a few seconds to attempt to remove the clingy little girl from his person, and his weapon."
+	"However, she's much faster than him, so she simply lets go and changes position while she barrages him with questions."
+	r "What's it made of? What kind of rounds does it fire?"
+	c "I said get off! Seriously, this is getting weird!"
+	w "Are you actually just going to ignore me? Get back here!"
+	"Another girl, this one angry."
+	"White hair, elegant white dress, self-superior attitude, snow motif."
+	"A Schnee, if I ever saw one."
+	"Her arms are held behind her in a confrontational pose, and her glare could shatter mirrors."
+	w "You can't just break someone's property and then leave!"
+	w "The Headmaster will hear about this, I assure you!"
+	"In between being dazed at the sudden occurance and trying to pick my priorities, I can barely respond."
+	"And now there's a third girl."
+	"Dressed in black and white and more somber than either of the others, she seems like the opposite of the Schnee."
+	"Also, she has a bow in her hair. Which doesn't look like a bow, somehow- it's uncanny."
+	"She bends down and picks up one of the Schnee girl's Dust crystals."
+	jump shiningbeacon
 
 label shiningbeacon:
     
